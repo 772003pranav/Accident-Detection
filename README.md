@@ -98,6 +98,8 @@ Copy
 curl -X POST -F "video=@test-video.mp4" http://127.0.0.1:5000/detect
 🖥️ After processing, an email alert will be sent automatically!
 
+---
+
 ## 🖥 **System Architecture**  
 1️⃣ **Video Input** → (Dashcam, CCTV, or Uploaded Video)  
 2️⃣ **YOLO Object Detection** → Detects vehicles & possible collisions  
