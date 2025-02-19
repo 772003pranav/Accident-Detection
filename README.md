@@ -56,50 +56,11 @@ The accident detection system is trained and tested using:
 
 ## 💾 **Installation**  
 ### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/your-username/accident-detection-yolo.git
-cd accident-detection-yolo
 
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Download YOLO Model Files
-Download the YOLO weight files and place them inside the models/ folder.
-
-### **3️⃣ Download YOLO Model Files**  
-Download the YOLO weight files and place them inside the **models/** folder.  
-
-🔗 **Download YOLO Models:**  
-- **YOLOv5:** [YOLOv5 Models](https://github.com/ultralytics/yolov5)  
-- **YOLOv8:** [YOLOv8 Models](https://github.com/ultralytics/ultralytics)  
-- **YOLOv11:** *(Coming Soon - Use Custom Trained Weights)*  
-
-YOLOv11: (Coming Soon - Use Custom Trained Weights)
-models/
-│── yolo11n.pt
-│── yolo11s.pt
-│── yolo11m.pt
-4️⃣ Set Up API Keys
-OpenWeatherMap API key for weather data
-Gmail SMTP credentials for email alerts
-Store them securely in config.py or a .env file
 ---
----
-
-## 🚀 Running the System  
+## 🚀 **Running the System**  
 ### Start the Flask Server  
-```bash
-python detection.py
-Flask API will start on: http://127.0.0.1:5000/
 
-2️⃣ Send a Video File for Accident Detection
-Use Postman or cURL to test the API:
-
-bash
-Copy
-curl -X POST -F "video=@test-video.mp4" http://127.0.0.1:5000/detect
-🖥️ After processing, an email alert will be sent automatically!
-
----
 
 ## 🖥 **System Architecture**  
 1️⃣ **Video Input** → (Dashcam, CCTV, or Uploaded Video)  
