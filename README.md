@@ -85,10 +85,9 @@ Store them securely in config.py or a .env file
 ---
 ---
 
-## 🚀 **Running the System**  
-1️⃣ Start the Flask Server
-bash
-Copy
+## 🚀 Running the System  
+### Start the Flask Server  
+```bash
 python detection.py
 Flask API will start on: http://127.0.0.1:5000/
 
