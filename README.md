@@ -1,4 +1,4 @@
-# 🚗 AI-Based Real-Time Accident Detection System 🚨  
+# 🚗 AI-Based Real-Time Accident Detection With Smart Emergency Response System 🚨  
 An advanced **YOLO-based accident detection system** that identifies collisions in real-time, estimates severity, and alerts emergency services using **AI, OpenCV, Flask, and email automation**.  
 
 ---
@@ -157,7 +157,7 @@ git pull origin main
 ---
 
 ## 👨‍💻 **Contributors**  
-🚀 **Pranav Reddy Sanikommu** *(Lead Developer & Researcher)*  
+🚀 **Pranav Reddy Sanikommu** *(Student,Btech AIE)*  
 🎓 *Amrita Vishwa Vidyapeetham, Chennai, India*  
 
 📢 **Supervised by:**  
