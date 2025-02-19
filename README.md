@@ -61,7 +61,7 @@ The accident detection system is trained and tested using:
 ## 🚀 **Running the System**  
 ### Start the Flask Server  
 
-
+---
 ## 🖥 **System Architecture**  
 1️⃣ **Video Input** → (Dashcam, CCTV, or Uploaded Video)  
 2️⃣ **YOLO Object Detection** → Detects vehicles & possible collisions  
