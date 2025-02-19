@@ -98,44 +98,51 @@ Copy
 curl -X POST -F "video=@test-video.mp4" http://127.0.0.1:5000/detect
 🖥️ After processing, an email alert will be sent automatically!
 
-🖥 System Architecture
-1️⃣ Video Input → (Dashcam, CCTV, or Uploaded Video)
-2️⃣ YOLO Object Detection → Detects vehicles & possible collisions
-3️⃣ IoU & Speed Calculation → Determines severity
-4️⃣ Weather Data Retrieval → Uses OpenWeatherMap API
-5️⃣ Nearest Services → Finds closest police & hospital via OSM API
-6️⃣ Emergency Alert → Sends email with accident report, images, and video
+## 🖥 **System Architecture**  
+1️⃣ **Video Input** → (Dashcam, CCTV, or Uploaded Video)  
+2️⃣ **YOLO Object Detection** → Detects vehicles & possible collisions  
+3️⃣ **IoU & Speed Calculation** → Determines severity  
+4️⃣ **Weather Data Retrieval** → Uses **OpenWeatherMap API**  
+5️⃣ **Nearest Services** → Finds closest **police & hospital** via **OSM API**  
+6️⃣ **Emergency Alert** → Sends **email with accident report, images, and video**  
 
-📝 Results & Simulation
-📌 The system was tested on multiple accident scenarios, achieving:
+---
 
-94.6% Accuracy in detecting collisions
-92.8% Precision in identifying accident severity
-Average Response Time: 2.1 seconds
-Emergency Notifications: Sent to registered contacts within 5 seconds
-📺 Video Demonstration
-🎬 Watch the system in action:
-Simulation Video
+## 📝 **Results & Simulation**  
+📌 The system was tested on multiple accident scenarios, achieving:  
 
-## 🔗 References  
+- **94.6% Accuracy** in detecting collisions  
+- **92.8% Precision** in identifying accident severity  
+- **Average Response Time:** **2.1 seconds**  
+- **Emergency Notifications:** **Sent to registered contacts within 5 seconds**  
+
+### **📺 Video Demonstration**  
+🎬 Watch the system in action:  
+[Simulation Video](Available in the fIles section)  
+
+---
+
+## 🔗 **References**  
 📌 **YOLO Model Documentation**: [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)  
 📌 **COCO Dataset**: [Download Here](https://cocodataset.org/#download)  
 📌 **Flask API Guide**: [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)  
 📌 **OpenWeatherMap API**: [Weather API](https://openweathermap.org/api)  
 📌 **OpenStreetMap API**: [Overpass API](https://overpass-api.de/)  
 
+---
 
-👨‍💻 Contributors
-🚀 Pranav Reddy Sanikommu (Lead Developer & Researcher)
-🎓 *Amrita Vishwa Vidyapeetham, Chennai, India
+## 👨‍💻 **Contributors**  
+🚀 **Pranav Reddy Sanikommu** *(Lead Developer & Researcher)*  
+🎓 *Amrita Vishwa Vidyapeetham, Chennai, India*  
 
-📢 Supervised by:
-👨‍🏫 Dr. Bharathi Mohan G (Professor, Amrita School of Computing, Chennai)
+📢 **Supervised by:**  
+👨‍🏫 **Dr. Bharathi Mohan G** *(Professor, Amrita School of Computing, Chennai)*  
 
-For any questions, feel free to reach out at: 772003pranav@gmail.com
+> For any questions, feel free to reach out at: `772003pranav@gmail.com`  
 
-🎯 Future Improvements
-✅ Add number plate recognition for automatic insurance claims
-✅ Improve AI-based severity estimation
-✅ Integrate with real-time traffic monitoring systems
+---
 
+## 🎯 **Future Improvements**  
+✅ Add **number plate recognition** for automatic insurance claims  
+✅ Improve **AI-based severity estimation**  
+✅ Integrate with **real-time traffic monitoring systems**  
