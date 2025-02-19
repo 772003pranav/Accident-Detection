@@ -85,7 +85,7 @@ Store them securely in config.py or a .env file
 ---
 ---
 
-## 🚀 **Running The System**  
+## 🚀 **Running the System**  
 1️⃣ Start the Flask Server
 bash
 Copy
