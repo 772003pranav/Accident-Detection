@@ -83,8 +83,9 @@ OpenWeatherMap API key for weather data
 Gmail SMTP credentials for email alerts
 Store them securely in config.py or a .env file
 ---
+---
 
-## 🚀 **Running THe Sysrtem**  
+## 🚀 **Running The System**  
 1️⃣ Start the Flask Server
 bash
 Copy
